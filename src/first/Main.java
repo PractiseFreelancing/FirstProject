@@ -1,4 +1,4 @@
-package com.Test;
+package first;
 
 public class Main {
 
