@@ -1,5 +1,7 @@
 package first;
 
+import secondPkg.Third;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -8,6 +10,10 @@ public class Main {
 		
 		Second second = new Second();
 		second.SecondClass();
+		
+		System.out.println("after second class over");
+		Third third1 = new Third();
+		third1.thirdClass();
 	}
 
 }
