@@ -9,7 +9,7 @@ public class Main {
 		System.out.println("In main method");
 		
 		Second second = new Second();
-		second.SecondClass();
+		second.secondClass();
 		
 		System.out.println("after second class over");
 		Third third1 = new Third();
